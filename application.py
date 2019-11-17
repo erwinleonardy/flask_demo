@@ -75,3 +75,6 @@ def flight_api(flight_id):
             "duration": flight.duration,
             "passengers": names
         })
+
+if __name__ == "__main__":
+    app.run()
